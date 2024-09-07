@@ -1,0 +1,113 @@
+.detail{
+    flex: 1;
+    overflow-y: scroll;
+
+.users{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 5px;
+    align-items: center;
+    border-bottom:1px solid gray;
+    img{
+        height: 80px;
+        width: 80px;
+        object-fit: cover;
+        border-radius: 50%;
+  
+   
+    }
+
+
+}
+h2{
+    margin-bottom: 10px;
+   }
+    .info{
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    
+        .title{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            img{
+                background: #14133bca;
+                width: 30px;
+                height: 30px;
+                padding: 10px;
+                cursor: pointer;
+                border-radius: 50%;
+            }
+    }
+    .pics{
+        display: flex;
+        flex-direction: column;
+        gap: 9px;
+        margin-top: 10px;
+        .picitem{
+            display: flex;
+                justify-content: space-between;
+           align-items: center;
+            .picdetails{
+                display: flex;
+                align-items: center;
+                gap: 5px;
+                
+             img{
+                width: 40px;
+                height: 40px;
+                object-fit: cover;
+                border-radius: 5px;
+             }  
+             span{
+                font-style: 14px;
+                color: lightgray;
+                font-weight: 400;
+             } 
+    }
+    .icons{
+        background: #14133bca;
+                width: 30px;
+                height: 30px;
+                padding: 10px;
+                cursor: pointer;
+                border-radius: 50%;
+                gap: 5px;
+    }
+    }
+   }
+  }
+ }
+
+.button{
+    color: white;
+    background: rgba(111, 15, 15, 0.749);
+    padding: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 7px;
+    margin-top: 10px;  
+}
+.button:hover{
+    background: rgba(163, 18, 18, 0.79);
+
+}
+.butto{
+    color: white;
+    background: rgba(16, 4, 110, 0.747);
+    padding: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 7px;
+    margin-top: 10px;
+    
+}
+.butto:hover{
+    background: rgba(34, 11, 202, 0.817);
+}
